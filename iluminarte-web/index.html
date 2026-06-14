@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iluminarte | Velas artesanales</title>
+    <meta
+      name="description"
+      content="Velas artesanales hechas a mano para transformar cada momento en una experiencia especial: aroma, luz y diseño." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Fondo decorativo sutil -->
+    <div class="bg-decor" aria-hidden="true"></div>
+
+    <a class="skip-link" href="#inicio">Saltar al contenido</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Iluminarte - Inicio">
+          <span class="brand-mark" aria-hidden="true">🕯️</span>
+          <span class="brand-name">Iluminarte</span>
+        </a>
+
+        <nav class="nav" aria-label="Navegación principal">
+          <a class="nav-link" href="catalogo.html">Catálogo</a>
+          <a class="nav-link" href="story.html">Nuestra Historia</a>
+          <a class="nav-link" href="guide.html">Guía de Velas</a>
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </nav>
+
+        <div class="header-cta">
+          <a class="btn btn-primary" href="catalogo.html">Ver catálogo</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <!-- Inicio / Hero -->
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <h1 class="h1">Ilumina tus espacios con arte y aroma</h1>
+            <p class="lead">
+              Velas artesanales hechas a mano para transformar cada momento en una experiencia especial.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="catalogo.html">Ver Catálogo</a>
+              <a class="btn btn-secondary" href="story.html">Conocer la marca</a>
+            </div>
+            <div class="hero-badges" aria-label="Valores de marca">
+              <span class="badge">Calidez</span>
+              <span class="badge">Artesanía</span>
+              <span class="badge">Bienestar</span>
+              <span class="badge">Diseño</span>
+            </div>
+          </div>
+
+          <div class="hero-media reveal">
+            <div class="hero-image" role="img" aria-label="Velas artesanales"></div>
+            <div class="hero-glow" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bloque cards / acceso rápido -->
+      <section class="section" style="padding-top: 20px;">
+        <div
+          class="container"
+          style="display: grid; gap: 18px; grid-template-columns: repeat(3, minmax(0,1fr));">
+          <div class="card reveal">
+            <h3 class="h3" style="margin-bottom: 8px;">Catálogo</h3>
+            <p class="p" style="color: rgba(61,41,101,.86)">Descubre aromas, tamaños y diseños para tu hogar.</p>
+            <div style="margin-top: 14px">
+              <a class="btn btn-primary" href="catalogo.html">Ver velas</a>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <h3 class="h3" style="margin-bottom: 8px;">Nuestra Historia</h3>
+            <p class="p" style="color: rgba(61,41,101,.86)">Artesanía, emociones y bienestar en cada pieza.</p>
+            <div style="margin-top: 14px">
+              <a class="btn btn-secondary" href="story.html">Leer más</a>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <h3 class="h3" style="margin-bottom: 8px;">Contacto</h3>
+            <p class="p" style="color: rgba(61,41,101,.86)">Te asesoramos por WhatsApp según tu estilo.</p>
+            <div style="margin-top: 14px">
+              <a class="btn btn-secondary" href="contacto.html">Hablemos</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Guía (cta) -->
+      <section class="section-alt section" style="padding-bottom: 90px; padding-top: 0;">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="h2">Guía de Velas</h2>
+            <p class="section-sub">Cuidar tu vela es disfrutarla al máximo. Recomendaciones simples y efectivas.</p>
+          </div>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap">
+            <a class="btn btn-primary" href="guide.html">Ir a la guía</a>
+            <a class="btn btn-secondary" href="catalogo.html">Elegir mi vela</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="brand-mark" aria-hidden="true">✦</span>
+            <span class="brand-name">Iluminarte</span>
+          </div>
+          <p class="footer-text">Velas artesanales con calidez, diseño y bienestar.</p>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Menú</div>
+          <a class="footer-link" href="catalogo.html">Catálogo</a>
+          <a class="footer-link" href="story.html">Nuestra Historia</a>
+          <a class="footer-link" href="guide.html">Guía de Velas</a>
+          <a class="footer-link" href="contacto.html">Contacto</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Redes</div>
+          <a class="footer-link" href="#">Instagram</a>
+          <a class="footer-link" href="#">Facebook</a>
+          <a class="footer-link" href="#">TikTok</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Legal</div>
+          <div class="footer-text">© <span id="year"></span> Iluminarte. Todos los derechos reservados.</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Botón flotante WhatsApp -->
+    <a
+      id="waFloat"
+      class="wa-float"
+      href="#"
+      target="_blank"
+      rel="noopener"
+      aria-label="Consultar por WhatsApp"
+    >
+      <span class="wa-icon" aria-hidden="true">🟢</span>
+      <span class="wa-text">WhatsApp</span>
+    </a>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
+
