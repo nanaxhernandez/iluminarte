@@ -7,11 +7,6 @@ Este proyecto es un sitio web moderno para la marca **Iluminarte** hecho con **H
 - `styles.css`: estilos con paleta Iluminarte + responsive
 - `app.js`: render del catálogo + links de WhatsApp prellenados
 
-## WhatsApp
-En `app.js` hay una constante:
-- `const WA_PHONE = "541100000000";`
-
-Reemplázala por el número real (solo dígitos, sin `+`), por ejemplo `5491123456789`.
 
 ## Cómo abrir
 Abrir `index.html` en el navegador.
